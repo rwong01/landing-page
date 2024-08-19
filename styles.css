@@ -12,11 +12,11 @@ img {
 }
 
 .nav {
-    padding: 20px 25% 0px 25%;
+    padding: 20px 22% 0px 22%;
 }
 
 .content {
-    padding: 80px 25%;
+    padding: 110px 22%;
 }
 .dark-bg {
     background-color: #1f2937;
@@ -93,7 +93,6 @@ button {
 .flex-v {
     display: flex;
     flex-direction: column;
-    gap: 10px;
 }
 
 header ul{
@@ -168,9 +167,11 @@ h3.quote-tag {
     text-align: right;
 }
 
-.extra-padding {
-    padding: 30px 0;
-}
-.justify-center {
+.collection{
+    padding-top: 20px;
     justify-content: center;
+}
+
+.collection .flex-v{ 
+    gap: 10px;
 }
